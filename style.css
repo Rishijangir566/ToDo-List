@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1650735310415-392ab5378954?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRvZG8lMjBsaXN0fGVufDB8fDB8fHww) center/cover no-repeat;
+}
+.head h1{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 3rem;
+    font-weight: 700;
+    text-shadow: 3px 3px 15px rgb(0, 0, 0);
+}
+#container{
+    padding:10px;
+    border: 2px solid black;
+    margin: 4rem auto;
+    width: 35%;
+    background-color: blanchedalmond;
+}
+#wrapper{
+    background-color: rgb(156, 176, 185);
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 1rem;
+    padding: 0 20px;
+}
+#wrapper input{
+    height:1.5rem;
+    width: 100%;
+}
+#wrapper button{
+    padding: 5px 30px;
+    background-color: rgb(4, 16, 87);
+    color: #ffff;
+    border:none;
+     font-weight: 600;
+}
+
+#taskList div{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width:100%;
+    margin: 10px auto;
+    background-color:rgb(156, 176, 185);
+    padding: 0 15px;
+    height: 1.6rem;
+    font-size: 18px;
+}
+#taskList div p{
+    padding-left: 5px;
+}
+#taskList div span i{
+margin:0 10px;
+}
+
+
