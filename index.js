@@ -12,7 +12,7 @@ addButton.addEventListener("click",addTaskList)
 
 
 function addTaskList(){
-    if(Input===""){
+    if(Input.value===""){
  alert("enter task please")
     }
     else{
